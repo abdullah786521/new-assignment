@@ -26,8 +26,8 @@ h1 {
     margin: 30px;
     padding: 10px 20px 10px 20px;
     width: 200px;
-    background-color: #d2d7eb;
-    border: 1px solid #dddddd;
+    background-color: darkcyan;
+    border: 1px solid black;
     box-shadow: +12px +12px 10px rgb(134, 62, 10)
   }
   
