@@ -28,7 +28,7 @@ h1 {
     width: 200px;
     background-color: darkcyan;
     border: 1px solid black;
-    box-shadow: +12px +12px 10px rgb(134, 62, 10)
+    box-shadow: +12px +12px 10px rgba(36, 19, 187, 0.527)
   }
   
   .vitamin-card h2 {
