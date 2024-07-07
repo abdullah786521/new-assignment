@@ -1,0 +1,134 @@
+
+body {
+	background-color: #000;
+	color: #fff;
+}
+
+ header { 
+    background-image:url(https://t4.ftcdn.net/jpg/06/52/25/55/360_F_652255585_TXngNU2QkEh44FAvIXt4uroTAImiurRd.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	
+ 
+}
+nav{
+    text-align: right;
+    background-image:url(https://t4.ftcdn.net/jpg/06/52/25/55/360_F_652255585_TXngNU2QkEh44FAvIXt4uroTAImiurRd.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+/* nav {
+    position: fixed;
+    top: 20px;
+    left: 20px; */
+
+
+nav ul {
+    text-align: right;
+	list-style: none;
+	/* padding: ; */
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+    width: 1920px;
+    height: 50px;
+    text-align: right;
+    margin: 10px;
+	/* margin-left: 50px; */
+}
+
+nav a {
+    margin-right: 10px;
+    padding: 5px;
+	color: #fff;
+	text-decoration: none;
+    text-transform: capitalize;
+    display: inline;
+
+}
+.movie-grid{
+    position: relative;
+    background-image:url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie-grid{
+    height: 1080px;
+    width: 1920px;
+}
+.movie-grid {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	
+	
+}
+nav>ul>li>img {
+    position:relative ;
+
+}
+.movie-card a {
+    text-decoration: none;
+}
+img {
+    margin-top: 0%;
+   image-rendering: inherit;
+
+    image-resolution:100px ,100px;
+}
+p {
+    display: inline;
+}
+.movie-card:hover{ 
+    display: block;
+    filter: drop-shadow(0,0,10px);
+    max-height: 195px;
+    max-width: 299px;
+    transition: all;
+}
+
+.movie-card{
+    
+    margin: 30px ;
+    /* padding: 10px 20px 10px 20px; */
+    /* width: 200px; */
+    max-height: 195px;
+    max-width: 299px;
+    
+    border: 1px solid black;
+    box-shadow: +12px +12px 10px rgba(66, 29, 29, 0.527)
+  }
+
+.movie-card img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	
+}
+
+.movie-card h2 {
+	color: #fff;
+	margin-top: 0;
+}
+
+footer {
+    position: absolute ;
+    margin: 10px 0 0 0 ;
+    width: 1920px;
+    height: 100px;
+ 
+	background-color: #333;
+	padding: 1em;
+	text-align: center;
+}
+
+/* .movie-title{
+    color: #fff;
+    display: block;
+    margin-top: 2px;
+    text-align: center;
+} */
