@@ -40,8 +40,21 @@ nav li {
     margin: 10px;
 	/* margin-left: 50px; */
 }
+nav a:hover{
+    display: block;
+    filter: drop-shadow(0 0 10px #f1e8e8) ;
+    box-shadow: (3px,3px,1px rgb(243, 235, 235)) ;
+    /* background-color: rgb(128, 34, 34); */
+    max-height: 200px;
+    max-width: 400px;
+    transition: all 1s ease-in-out;
+    
+
+}
 
 nav a {
+    display: inline-block;
+
     margin-right: 10px;
     padding: 5px;
 	color: #fff;
@@ -85,12 +98,13 @@ p {
 }
 .movie-card:hover{ 
     display: block;
-    box-shadow: (0,0,10px);
-    background-color: rgb(77, 6, 6);
+    filter: drop-shadow(0 0 10px #f1e8e8) ;
+    box-shadow: (3px,3px,1px red) ;
+    background-color: rgb(128, 34, 34);
     max-height: 200px;
     max-width: 400px;
     transition: all 1s ease-in-out;
-    tra
+    
 }
 
 .movie-card{
