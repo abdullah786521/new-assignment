@@ -85,10 +85,12 @@ p {
 }
 .movie-card:hover{ 
     display: block;
-    filter: drop-shadow(0,0,10px);
-    max-height: 195px;
-    max-width: 299px;
-    transition: all;
+    box-shadow: (0,0,10px);
+    background-color: rgb(77, 6, 6);
+    max-height: 200px;
+    max-width: 400px;
+    transition: all 1s ease-in-out;
+    tra
 }
 
 .movie-card{
@@ -96,11 +98,11 @@ p {
     margin: 30px ;
     /* padding: 10px 20px 10px 20px; */
     /* width: 200px; */
-    max-height: 195px;
-    max-width: 299px;
+    height: 195px;
+    width: 299px;
     
     border: 1px solid black;
-    box-shadow: +12px +12px 10px rgba(66, 29, 29, 0.527)
+    box-shadow: +12px +12px 10px rgba(129, 26, 26, 0.527)
   }
 
 .movie-card img {
