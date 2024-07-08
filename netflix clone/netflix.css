@@ -40,15 +40,15 @@ nav li {
     margin: 10px;
 	/* margin-left: 50px; */
 }
-/* nav a:hover{
+  nav a:hover{
     display: block;
     filter: drop-shadow(0 0 10px #f1e8e8) ;
     box-shadow: (3px,3px,1px rgb(243, 235, 235)) ;
-    /* background-color: rgb(128, 34, 34); */
+     background-color: rgb(128, 34, 34); 
     max-height: 200px;
-    max-width: 400px;
+    max-width: 400px; */
     transition: all 1s ease-in-out;
-     */
+     
 
 }
 
